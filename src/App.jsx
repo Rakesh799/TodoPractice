@@ -49,7 +49,17 @@ function App() {
               <div key={index} className="flex justify-between items-center bg-[#550036] text-white py-1 px-2 rounded-lg w-[240px] mb-2">
 
                 <div>{todo}</div>
-                <button onClick={() => deleteTodo(index)} className='cursor-pointer'>❌</button>
+                <button onClick={() => deleteTodo(index)} className='cursor-pointer'>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="white"
+                  >
+                    <path d="M6.225 4.811l5.775 5.774 5.774-5.774 1.414 1.414-5.774 5.775 5.774 5.774-1.414 1.414-5.774-5.774-5.775 5.774-1.414-1.414 5.775-5.774-5.775-5.775z" />
+                  </svg>
+                </button>
 
               </div>
 
