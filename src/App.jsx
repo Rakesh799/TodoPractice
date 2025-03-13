@@ -39,7 +39,7 @@ function App() {
             type="text"
             className='border-1 border-black py-1 pl-2 rounded-lg'
           />
-          <button onClick={handleClick} className='bg-[#550036] text-white font-bold rounded-lg py-1 px-2 border-1 border-[#550036] '>Save</button>
+          <button onClick={handleClick} className='bg-[#550036] text-white font-bold rounded-lg py-1 px-2 border-1 border-[#550036] cursor-pointer'>Save</button>
         </div>
 
         <div className='flex flex-col justify-center items-center gap-2 w-full'>
