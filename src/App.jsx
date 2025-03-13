@@ -48,7 +48,7 @@ function App() {
             {todos.map((todo, index) => (
               <div key={index} className="flex justify-between items-center bg-[#550036] text-white py-1 px-2 rounded-lg w-[240px] mb-2">
 
-                <div>{todo}</div>
+                <div className='max-w-48 overflow-hidden'>{todo}</div>
                 <button onClick={() => deleteTodo(index)} className='cursor-pointer'>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
